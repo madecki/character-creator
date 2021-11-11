@@ -1,4 +1,5 @@
 .characterEditor {
+  position: relative;
   padding-top: 128px;
   padding-bottom: 64px;
 }
@@ -7,6 +8,7 @@
 }
 
 .header {
+  width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,6 +26,11 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  right: 0;
+  top: 50px;
+  width: 40%;
+  min-height: 500px;
 }
 
 .controlColumn {
